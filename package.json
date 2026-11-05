@@ -1,0 +1,26 @@
+{
+  "name": "font-awesome-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Null-Austin/font-awesome-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Null-Austin/font-awesome-proxy/issues"
+  },
+  "homepage": "https://github.com/Null-Austin/font-awesome-proxy#readme",
+  "dependencies": {
+    "@fastify/http-proxy": "^11.6.6",
+    "express": "^5.3.0",
+    "fastify": "^5.12.8",
+    "undici": "^8.12.3"
+  }
+}
